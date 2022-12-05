@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+header {
+  background-image: url(../images/02-hero-bg.jpg);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -21,3 +25,40 @@ h6 {
 p {
   margin: 0;
 }
+
+/*Potfolio Grid Css*/
+#work {
+  margin: 0px 5%;
+  display: grid;
+  min-height: 500px;
+  height: 70vh;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+  "portfolioOne portfolioOne"
+  "portfolioTwo portfolioThree"
+  "portfolioFour portFolioFive";
+}
+
+#portfolioOne {
+  grid-area: portfolioOne;
+  background-image: url("../images/02-portfolio-1.jpg")
+}
+#portfolioTwo {
+  grid-area: portfolioTwo;
+  background-image: url("../images/02-portfolio-2.jpg")
+}
+#portfolioThree {
+  grid-area: portfolioThree;
+  background-image: url("../images/02-portfolio-3.jpg")
+}
+#portfolioOne {
+  grid-area: portfolioFour;
+  background-image: url("../images/02-portfolio-4.jpg")
+}
+#portfolioOne {
+  grid-area: portfolioFive;
+  background-image: url("../images/02-portfolio-5.jpg")
+}
+
+
