@@ -3,9 +3,13 @@
 }
 
 header {
-  box-sizing: border-box;
-  background-image: url(../images/02-hero-bg.jpg);
-  background-position: center ;
+
+}
+
+#navBar {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 5%;
 }
 
 body {
@@ -22,16 +26,30 @@ h1 {
   background-color: aquamarine;
   text-align: center;
 }
-h2, h3, h4, h5, h6 {
+h2 {
   margin: 1%;
   padding: 1%;
   font-family: 'Poppins', sans-serif;
-  background-color: rgb(241, 30, 206);
+  background-color: aquamarine;
+}
+h3, h4, h5, h6 {
+  margin: 1%;
+  padding: 1%;
+  font-family: 'Poppins', sans-serif;
 }
 
 p {
-  margin: 0;
+  margin: 1;
+  padding: 1;
 }
+
+/*hero-banner*/
+
+.hero-banner {
+  background-image: url(../images/02-hero-bg.jpg);
+  background-position: center ;
+}
+
 
 /*Potfolio Grid Css*/
 #work {
