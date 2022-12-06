@@ -59,6 +59,19 @@ p {
 
 
 /*Potfolio Grid Css*/
+.page-section{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+.portfolioGridArea {
+
+}
+
 #work {
   margin: 0px 5%;
   display: grid;
@@ -84,13 +97,18 @@ p {
   grid-area: portfolioThree;
   background-image: url("../images/02-portfolio-3.jpg")
 }
-#portfolioOne {
+#portfolioFour {
   grid-area: portfolioFour;
   background-image: url("../images/02-portfolio-4.jpg")
 }
-#portfolioOne {
+#portfolioFive {
   grid-area: portfolioFive;
   background-image: url("../images/02-portfolio-5.jpg")
 }
 
+#portfolioOne #portfolioTwo #portfolioThree #portfolioFour #portfolioFive {
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
 
