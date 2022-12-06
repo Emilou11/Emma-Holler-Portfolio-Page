@@ -7,9 +7,16 @@ header {
 }
 
 #navBar {
+  background-image: url(../images/02-hero-bg.jpg);;
   display: flex;
   flex-direction: row;
-  margin: 0px 5%;
+  margin: 0px 0%;
+}
+
+#navigation p {
+  cursor: pointer;
+  flex-direction: row;
+  text-decoration: none;
 }
 
 body {
@@ -46,7 +53,7 @@ p {
 /*hero-banner*/
 
 .hero-banner {
-  background-image: url(../images/02-hero-bg.jpg);
+ 
   background-position: center ;
 }
 
