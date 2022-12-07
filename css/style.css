@@ -2,15 +2,21 @@
   box-sizing: border-box;
 }
 
-header {
-
+header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
 }
 
-#navBar {
-  background-image: url(../images/02-hero-bg.jpg);;
-  display: flex;
-  flex-direction: row;
-  margin: 0px 0%;
+#navBar li {
+  display: inline;
+  margin: 1px 1%;
 }
 
 #navigation p {
@@ -27,11 +33,7 @@ body {
 }
 
 h1 {
-  margin: 0;
-  padding: 1%;
-  font-family: 'Poppins', sans-serif;
-  background-color: aquamarine;
-  text-align: center;
+ 
 }
 h2 {
   margin: 1%;
@@ -55,6 +57,10 @@ p {
 .hero-banner {
  
   background-position: center ;
+}
+
+.page-wrapper{
+  
 }
 
 
@@ -87,7 +93,10 @@ p {
 
 #portfolioOne {
   grid-area: portfolioOne;
-  background-image: url("../images/02-portfolio-1.jpg")
+  background-image: url("../images/02-portfolio-1.jpg");
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 20px;
 }
 #portfolioTwo {
   grid-area: portfolioTwo;
