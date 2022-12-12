@@ -13,7 +13,7 @@ This portfolio will be the place to display all the projects I have worked on to
 
 Here you will find a screenshot of my portfolio site.
 
-![alt text](           screenshot.png)
+![alt text](          screenshot.png)
 
 
 
